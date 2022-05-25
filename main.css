@@ -40,7 +40,7 @@
   display: none;
 }
 .burger-icon > div {
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 0.8rem;
   font-weight: 700;
 }
@@ -108,7 +108,7 @@ header {
   }
   .logo > a > img {
     padding-top: 40px;
-    width: 150px;
+    width: 100px;
   }
   .centerPage {
     display: flex;
