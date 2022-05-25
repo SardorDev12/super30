@@ -184,7 +184,7 @@ header {
   }
   header {
     width: 100vw;
-    padding: 150px 20px;
+    padding: 0px 20px;
     text-align: center;
   }
   .burger-icon {
@@ -203,7 +203,7 @@ header {
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
-    padding: 0;
+    padding: 150px 0 0;
   }
   .title {
     padding: 100px 0 10px;
