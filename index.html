@@ -6,57 +6,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Super 30</title>
     <link rel="stylesheet" href="main.css" />
+    <link
+      rel="shortcut icon"
+      href="./images/20220525_155507.png"
+      type="image/x-icon"
+    />
     <script src="script.js" defer></script>
   </head>
   <body>
-    <main>
-      <header>
-        <div class="logo">
-          <a href="#">
-            <img src="./images/20220525_155507.png" alt="super30-logo" />
-          </a>
-        </div>
-        <nav class="navbar">
-          <a href="#" class="navbar-item">Bosh sahifa</a>
-          <a href="#" class="navbar-item gray">Biz haqimizda</a>
-          <a href="#" class="navbar-item gray">Bizning loyihalar</a>
-        </nav>
-        <!-- mobile -->
-        <a class="burger-icon" href="#">
-          <div class="burger-icon">
-            <div>_</div>
-            <div>_</div>
-            <div>_</div>
+    <div class="container">
+      <main id="top">
+        <header>
+          <div class="logo">
+            <a href="#">
+              <img src="./images/20220525_155507.png" alt="super30-logo" />
+            </a>
           </div>
-        </a>
+          <nav class="navbar">
+            <a href="#top" class="navbar-item">Bosh sahifa</a>
+            <a href="#about-us" class="navbar-item gray">Biz haqimizda</a>
+            <a href="#projects" class="navbar-item gray">Bizning loyihalar</a>
+          </nav>
+          <!-- mobile -->
+          <a class="burger-icon" href="#">
+            <div class="burger-icon">
+              <div>_</div>
+              <div>_</div>
+              <div>_</div>
+            </div>
+          </a>
 
-        <section class="disabled">
-          <button class="quit">X</button>
-          <a href="#" class="navbar-item">Bosh sahifa</a>
-          <a href="#" class="navbar-item gray">Biz haqimizda</a>
-          <a href="#" class="navbar-item gray">Bizning loyihalar</a>
-        </section>
-        <!-- mobile -->
-      </header>
-      <section class="centerPage">
-        <div class="left">
-          <h1 class="title">
-            Biz shu Yerdamizmi, <br />
-            demak nimadir qilamiz.
-          </h1>
-          <a href="https://t.me/ISuper30">
-            <button class="signUp">Telegram</button>
-          </a>
-        </div>
-        <div class="right">
-          <div class="image">
-            <img
-              src="./images/—Pngtree—cute muslim student png hand_7022429.png"
-              alt=""
-            />
+          <section class="disabled">
+            <button class="quit">X</button>
+            <a href="#top" class="navbar-item">Bosh sahifa</a>
+            <a href="#about-us" class="navbar-item gray">Biz haqimizda</a>
+            <a href="#projects" class="navbar-item gray">Bizning loyihalar</a>
+          </section>
+          <!-- mobile -->
+        </header>
+        <section class="centerPage">
+          <div class="left">
+            <h1 class="title">
+              Biz shu Yerdamizmi, <br />
+              demak nimadir qilamiz.
+            </h1>
+            <a href="https://t.me/ISuper30">
+              <button class="signUp">Telegram</button>
+            </a>
           </div>
-        </div>
-      </section>
-    </main>
+          <div class="right">
+            <div class="image">
+              <img
+                src="./images/—Pngtree—cute muslim student png hand_7022429.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </section>
+        <section id="about-us">
+          <h1 class="about-us__title">Biz haqimizda</h1>
+          <p class="about-us__description blue">
+            Biz birlashyapmiz, foydali inson bo'lish uchun.
+          </p>
+          <p class="about-us__description green">
+            Biz ilm olyapmiz, jamiyatga foyda keltirish uchun.
+          </p>
+          <p class="about-us__description brown">
+            Biz harakat qilyapmiz, Allohga suyukli, habibimiz Muhammad
+            sollallohu alayhi vasallamga loyiq ummat bo'lish uchun.
+          </p>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
