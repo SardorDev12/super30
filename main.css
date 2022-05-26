@@ -152,27 +152,39 @@ header {
   justify-content: space-around;
   align-items: center;
 }
+
+.projectss > a {
+  background-color: #fff;
+  height: 0;
+}
 .projects-title {
   font-size: 5rem;
 }
 .project {
-  margin-top: 100px;
+  display: block;
+  margin-top: 40px;
   width: 300px;
   height: 300px;
-  background-color: goldenrod;
   border-radius: 10px;
   transition: all 0.2s ease-in-out;
 }
 
-.project > img {
-  width: 100%;
-  height: 100%;
+.project > a > img {
+  margin-top: 15px;
+  width: 85%;
+  height: 85%;
   border-radius: 10px;
+  border: 1px solid #000;
 }
 
 .project:hover {
-  transform: scale(1.01);
-  background-color: rgba(244, 165, 96, 0.678);
+  transform: scale(1.09);
+}
+
+.footer-title {
+  text-align: center;
+  color: aliceblue;
+  padding-top: 50px;
 }
 
 /* /Projects */
